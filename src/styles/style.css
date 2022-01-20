@@ -83,7 +83,7 @@ span {
   padding-bottom: 0;
 }
 
-.description {
+#video .description {
   margin-bottom: -70px;
 }
 
@@ -110,8 +110,9 @@ span {
 
 #header img {
   position: absolute;
-  top: 45px;
-  left: 437px;
+  top: 55px;
+  right: -370px;
+  height: 525px;
   z-index: 2;
 }
 
