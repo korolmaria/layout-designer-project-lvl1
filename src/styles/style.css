@@ -25,7 +25,7 @@ body {
   margin: 0;
   color: #2a2626;
   font-size: 16px;
-  font-family: OpenSans, sans-serif;
+  font-family: OpenSans;
   line-height: 1.6em;
 }
 
@@ -36,7 +36,7 @@ h4 {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-family: Neucha, sans-serif;
+  font-family: Neucha;
   line-height: 1.2em;
 }
 
@@ -92,6 +92,14 @@ span {
   position: relative;
 }
 
+.light-theme img {
+  margin-right: 30px;
+}
+
+.dark-theme img {
+  margin-left: 30px;
+}
+
 #header {
   overflow: hidden;
 }
@@ -104,14 +112,6 @@ span {
 
 #header h1 {
   margin-bottom: 200px;
-}
-
-.light-theme img {
-  margin-right: 30px;
-}
-
-.dark-theme img {
-  margin-left: 30px;
 }
 
 .btn {
