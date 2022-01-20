@@ -96,12 +96,14 @@ span {
   position: relative;
 }
 
-.light-theme img {
+.light-theme .image-block img {
   margin-right: 30px;
+  box-shadow: 0 16px 32px 0 #00000026;
 }
 
-.dark-theme img {
+.dark-theme .image-block img {
   margin-left: 30px;
+  box-shadow: 0 16px 32px 0 #00000026;
 }
 
 #header {
@@ -111,7 +113,7 @@ span {
 #header img {
   position: absolute;
   top: 55px;
-  right: -300px;
+  right: -270px;
   height: 525px;
 }
 
@@ -148,7 +150,7 @@ span {
 .video {
   position: relative;
   top: 100px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 #navigation {
@@ -297,9 +299,9 @@ span {
 }
 
 .subscribe h3 {
+  align-self: center;
   margin: 0;
   color: #fff;
-  align-self: center;
 }
 
 .subscribe input[type="email"] {
