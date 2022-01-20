@@ -275,7 +275,7 @@ span {
 .subscribe {
   display: flex;
   justify-content: space-between;
-  padding: 55px;
+  padding: 38px;
   color: #fff;
   background-color: #42413c;
 }
@@ -293,8 +293,9 @@ span {
 }
 
 .subscribe h3 {
-  margin: 9px 0 0;
+  margin: 0;
   color: #fff;
+  align-self: center;
 }
 
 .subscribe input[type="email"] {
