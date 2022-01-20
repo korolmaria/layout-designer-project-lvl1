@@ -76,7 +76,7 @@ span {
 }
 
 #video p {
-  margin-top: 32px;
+  margin-top: 30px;
 }
 
 #video .container {
@@ -148,7 +148,6 @@ span {
 .video {
   position: relative;
   top: 100px;
-  margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
