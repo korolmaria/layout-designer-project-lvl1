@@ -93,9 +93,13 @@ span {
 }
 
 #header {
-  background: url("../images/main.png");
-  background-repeat: no-repeat;
-  background-position: 430px 40px;
+  overflow: hidden;
+}
+
+#header img {
+  position: absolute;
+  top: 45px;
+  left: 435px;
 }
 
 #header h1 {
