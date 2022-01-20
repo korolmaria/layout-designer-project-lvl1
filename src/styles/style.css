@@ -55,7 +55,7 @@ h3 {
 }
 
 p {
-  margin-top: 16px;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
@@ -73,6 +73,10 @@ span {
 
 #video {
   text-align: center;
+}
+
+#video p {
+  margin-top: 16px;
 }
 
 #video .container {
