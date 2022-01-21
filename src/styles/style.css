@@ -123,10 +123,6 @@ span {
   margin-bottom: 200px;
 }
 
-#errors-in-planning img {
-  box-shadow: 0 16px 32px 0 #00000026;
-}
-
 .btn {
   display: inline-block;
   margin-top: 24px;
@@ -236,9 +232,10 @@ span {
 .section-title {
   margin-top: 100px;
   margin-bottom: 20px;
-  padding: 5px 10px 0;
+  padding: 5px 10px;
   color: #fff;
   font-size: 14px;
+  font-family: OpenSans, sans-serif;
   text-transform: uppercase;
   background-color: #b09a81;
 }
