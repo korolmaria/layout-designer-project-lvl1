@@ -98,11 +98,13 @@ span {
 
 .light-theme .image-block img {
   margin-right: 30px;
+  vertical-align: middle;
   box-shadow: 0 16px 32px 0 #00000026;
 }
 
 .dark-theme .image-block img {
   margin-left: 30px;
+  vertical-align: middle;
   box-shadow: 0 16px 32px 0 #00000026;
 }
 
